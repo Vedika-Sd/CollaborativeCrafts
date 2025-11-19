@@ -82,6 +82,11 @@ API development · LLM integration · Translation workflow · Backend design  ·
 
 ---
 
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 License.
+
+---
+
 # 🤝 Contribution Note
 
 This collection of projects was completed through **team collaboration**:
