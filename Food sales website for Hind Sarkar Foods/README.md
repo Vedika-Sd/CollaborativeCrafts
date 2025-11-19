@@ -1,4 +1,4 @@
-<h1>Hind Sarkar Agro Foods – Product Website</h1>
+<h1>Hind Sarkar Agro Foods – Product Website 🥞</h1>
 
 A clean, responsive, modern website built for **Hind Sarkar Agro Foods**, showcasing their premium popcorn, chikki, and healthy snacks.  
 The site includes **direct WhatsApp messaging** for customer inquiries along with a fully mobile-friendly UI.
