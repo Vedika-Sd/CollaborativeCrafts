@@ -1,11 +1,16 @@
-<h1 align="center">🌾 <b>Supplier Analytics Dashboard – Rajaram Solvex Limited</b></h1>
+<h1> <b>Supplier Analytics Dashboard – Rajaram Solvex Limited 🌾 </b></h1>
 
 
 A <b>real-time Data Science dashboard</b> developed for <b>Rajaram Solvex Limited</b>, a <b>Solvent Extraction Company</b>.<br>
 It helps monitor <b>supplier performance</b>, visualize <b>seed quality metrics</b>, and <b>predict oil content</b> using a <b>machine learning model</b>.<br>
+<br>
 <b>Live App:</b>  
 <a href="https://supplier-analytics-dashboard.streamlit.app/" target="_blank">https://supplier-analytics-dashboard.streamlit.app/</a>
 
+<h1>📌 Context</h1>
+
+This dashboard was developed as part of a small-scale consultancy effort to help a local industry digitalize their supplier evaluation process.
+The goal was to convert a fully manual workflow into a data-driven dashboard that delivers clarity, insights, and better decision-making.
 <hr>
 Demo Video:
 
@@ -73,31 +78,14 @@ The model is trained within the app and saved locally for reuse.
 
 <hr>
 
-<h2>🏗 <b>How to Set Up Locally</b></h2>
+👥 <h2><b>Contributors</b></h2>
+<br>
+Vedika Sardeshmukh
+- Responsible for core code logic
+- Managed the overall project planning & structure
 
-<h3>1️⃣ Clone the Repository</h3>
-<pre><code>git clone https://github.com/&lt;your-username&gt;/&lt;your-repo-name&gt;.git
-cd &lt;your-repo-name&gt;
-</code></pre>
-
-<h3>2️⃣ Install Dependencies</h3>
-<pre><code>pip install -r requirements.txt
-</code></pre>
-
-<h3>3️⃣ Run the Application</h3>
-<pre><code>streamlit run app.py
-</code></pre>
-
-<hr>
-
-<h2>🎯 <b>Future Enhancements</b></h2>
-<ul>
-<li>⏱️ Integration with live data sources (IoT or ERP systems)</li>
-<li>📉 Advanced analytics on seasonal supplier trends</li>
-<li>🧠 Deep learning-based oil yield forecasting</li>
-<li>📬 Automated email report generation</li>
-</ul>
-
-<hr>
+Sakshi More
+- Handled company search work
+- Took care of all external communication tasks
 
  
