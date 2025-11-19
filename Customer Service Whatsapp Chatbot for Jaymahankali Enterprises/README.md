@@ -1,10 +1,10 @@
-# Jaymahankali Enterprises Chatbot
+# Jaymahankali Enterprises Chatbot 💬
 
 A multilingual (English & Marathi) virtual assistant chatbot for **Jaymahankali Enterprises** built with **Flask**, **Google Gemini API**, and **Deep Translator**. It can answer greetings, office timings, address, and company information politely and professionally.
 
 ---
 
-## Features
+## ✨ Features
 
 - **Multilingual Support:** English ↔ Marathi (automatic translation for user queries and responses).  
 - **Polite & Professional Responses:** Follows fixed guidelines for greetings, office time & address.  
@@ -70,5 +70,15 @@ Ngrok will give you a public URL, e.g., https://abcd1234.ngrok.io.
 - Subsequent messages will continue in your selected language.
   
 
- 
+<h1>👥 Collaborators </h1> 
+Vedika Sardeshmukh
+- Chatbot logic, twiilio integration, Flask API development.
+
+Vedanti Ghongade - Company communication, requirement discussion, and real-world use-case alignment.
+
+<h2>🤝 For More Projects or Collaboration</h2>
+
+📩 **Connect with me:** *Vedika Sardeshmukh*  
+👉 GitHub: https://github.com/Vedika-Sd  
+👉 vedikasardeshmukh7@gmail.com
 
