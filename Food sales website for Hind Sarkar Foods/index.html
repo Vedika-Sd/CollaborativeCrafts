@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hind Sarkar Agro Foods - The World of Delicious Popcorn and Peanut Chikki</title>
+    <meta name="description" content="Hind Sarkar Agro Foods - Premium popcorn, peanut chikki, and healthy snacks. Founded in 2011, we provide healthy, tasty, and hygienic snacks for every mood.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span>HS</span>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Hind Sarkar Agro Foods</h1>
+                        <p>Premium Snacks</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link-mobile">Home</a>
+                <a href="#about" class="nav-link-mobile">About</a>
+                <a href="#products" class="nav-link-mobile">Products</a>
+                <a href="#contact" class="nav-link-mobile">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Hind Sarkar Agro Foods</h1>
+                        <p class="hero-subtitle">The world of delicious popcorn and Peanut Chikki</p>
+                        <p class="hero-description">Perfect Partner for All Your Moods – Premium Popcorn & Snacks</p>
+                        
+                        <div class="hero-buttons">
+                            <button class="btn-primary" onclick="scrollToSection('products')">
+                                Explore Products
+                            </button>
+                            <button class="btn-secondary" onclick="scrollToSection('about')">
+                                Our Story
+                            </button>
+                        </div>
+
+                        <div class="hero-features">
+                            <div class="feature">
+                                <div class="feature-icon green">🌱</div>
+                                <p>Healthy</p>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon yellow">😋</div>
+                                <p>Tasty</p>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon blue">🏠</div>
+                                <p>Hygienic</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-images">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="assets/Endevour%20Catalogue%20-%202025_page-0005.jpg" alt="Colorful Popcorn Varieties" />
+                            </div>
+                            <div class="product-image">
+                                <img src="assets/Endevour%20Catalogue%20-%202025_page-0008.jpg" alt="Healthy Peanut Snacks" />
+                            </div>
+                        </div>
+                        <div class="decorative-circle circle-1"></div>
+                        <div class="decorative-circle circle-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Story</h2>
+                    <p>Founded with a passion for creating healthy, delicious snacks that bring people together</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-card">
+                            <h3>Founded in 2011</h3>
+                            <p>Started in Mumbai by Sharif aka Azad, Hind Sarkar Agro Foods began with a simple mission: to provide healthy, tasty, and hygienic popcorn for every mood. What started as a small venture has grown into a beloved brand that brings joy to families across India.</p>
+                        </div>
+
+                        <div class="about-card">
+                            <h3>Our Mission</h3>
+                            <p>To provide healthy, tasty, and hygienic popcorn and snacks for every mood, bringing families and friends together through the joy of delicious food.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="assets/Endevour%20Catalogue%20-%202025_page-0007.jpg" alt="Healthy snacks and peanuts" />
+                    </div>
+                </div>
+
+                <div class="values">
+                    <div class="value-card">
+                        <div class="value-icon green">💚</div>
+                        <h3>Health</h3>
+                        <p>We prioritize your well-being with natural ingredients and nutritious snacks that fuel your body and mind.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon orange">🎉</div>
+                        <h3>Fun</h3>
+                        <p>Every bite is designed to bring joy and excitement to your day, making snack time a celebration.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon purple">👨‍👩‍👧‍👦</div>
+                        <h3>Togetherness</h3>
+                        <p>Our snacks are perfect for sharing, bringing families and friends together for memorable moments.</p>
+                    </div>
+                </div>
+
+                <div class="quote">
+                    <blockquote>"Perfect Partner for All Your Moods – Hind Sarkar Agro Foods"</blockquote>
+                    <p>- Our Promise to You</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Products</h2>
+                    <p>Discover our wide range of delicious and healthy snacks, perfect for every occasion</p>
+                </div>
+
+                <div class="category-filter">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="popcorn">Popcorn</button>
+                    <button class="filter-btn" data-category="chikki">Chikki</button>
+                    <button class="filter-btn" data-category="healthy">Healthy Snacks</button>
+                    <button class="filter-btn" data-category="spicy">Spicy Snacks</button>
+                    <button class="filter-btn" data-category="sweets">Sweets</button>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be populated by JavaScript -->
+                </div>
+
+                <div class="featured-products">
+                    <h3>Featured Products</h3>
+                    <div class="featured-grid">
+                        <div class="featured-card orange">
+                            <h4>Hind Sarkar Popcorn Combo</h4>
+                            <p>Get all your favorite popcorn flavors in one convenient pack. Perfect for movie nights and parties!</p>
+                        </div>
+                        
+                        <div class="featured-card green">
+                            <h4>Healthy Snack Pack</h4>
+                            <p>A nutritious combination of protein bars, multigrain cookies, and sweetcorn for guilt-free snacking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about our products? We'd love to hear from you!</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3>Contact Information</h3>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon orange">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Address</h4>
+                                    <p>Hind Sarkar Agro Foods<br>
+                                    D34/B, MIDC Tasawade<br>
+                                    Karad, Satara 415109<br>
+                                    Maharashtra, India</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon green">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+91 97693 95292</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon blue">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>way2sharif@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-media">
+                            <h3>Follow Us</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Inquiry</label>
+                                <textarea id="message" name="message" placeholder="Write your order related inquiry here..." rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary">Send Message on WhatsApp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span>HS</span>
+                        </div>
+                        <div>
+                            <h3>Hind Sarkar Agro Foods</h3>
+                            <p>Premium Snacks</p>
+                        </div>
+                    </div>
+                    <p>The world of delicious popcorn and healthy snacks. Perfect partner for all your moods.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-products">
+                    <h4>Our Products</h4>
+                    <ul>
+                        <li>Microwave Popcorn</li>
+                        <li>Peanut Chikki</li>
+                        <li>Peanut Butter</li>
+                        <li>Protein Bars</li>
+                        <li>Multigrain Cookies</li>
+                        <li>Spicy Snacks</li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>D34/B, MIDC Tasawade<br>Karad, Satara 415109</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 97693 95292</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>way2sharif@gmail.com</p>
+                    </div>
+
+                    <div class="footer-social">
+                        <h5>Follow Us</h5>
+                        <div class="social-links">
+                            <a href="#" class="social-link facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Hind Sarkar Agro Foods. All rights reserved. | The world of delicious popcorn</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
