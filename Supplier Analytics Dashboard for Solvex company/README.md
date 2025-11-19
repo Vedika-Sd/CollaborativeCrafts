@@ -1,4 +1,4 @@
-<h1> <b>Supplier Analytics Dashboard – Rajaram Solvex Limited 🌾 </b></h1>
+<h1> <b>Supplier Analytics Dashboard – Rajaram Solvex Limited 📊 </b></h1>
 
 
 A <b>real-time Data Science dashboard</b> developed for <b>Rajaram Solvex Limited</b>, a <b>Solvent Extraction Company</b>.<br>
