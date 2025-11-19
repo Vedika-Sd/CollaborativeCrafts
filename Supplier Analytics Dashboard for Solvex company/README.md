@@ -78,8 +78,8 @@ The model is trained within the app and saved locally for reuse.
 
 <hr>
 
-👥 <h2><b>Contributors</b></h2>
-<br>
+<h2><b>👥 Contributors</b></h2><br>
+
 Vedika Sardeshmukh
 - Responsible for core code logic
 - Managed the overall project planning & structure
